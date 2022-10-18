@@ -1,0 +1,41 @@
+_id: req_7e623abf5734409f8c30ecdf4dc3ad9e
+type: Request
+parentId: fld_bc84e18d69924c729c1decc40b823f5e
+modified: 1666134871471
+created: 1666134763701
+url: "{{ _.host }}/group"
+name: search
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_9a1a9e6e1d4c4566aee00e5cd591c722
+    name: limit
+    value: "10"
+    description: ""
+    disabled: true
+  - id: pair_d8d45d8051934c8880bb36efd9d8e476
+    name: offset
+    value: "0"
+    description: ""
+    disabled: true
+  - id: pair_90a21020655f4ae4ab4394a3d2c4cead
+    name: filter
+    value: '{"name": {"like": "Netflix"}}'
+    description: ""
+    disabled: true
+  - id: pair_7a5e7e19568f4c1ba87bb0688ad9e62e
+    name: order
+    value: '[["name", "asc"]]'
+    description: ""
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: -1666134763701
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,35 @@
+_id: req_7c4f18bbcd6642de83f3bddccd95bf72
+type: Request
+parentId: fld_e36a89a7e77f4f0a8b1ca08d030e095e
+modified: 1666134669565
+created: 1666134636523
+url: "{{ _.host }}/user/1"
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Felipe X Passos",
+    	"email": "test@test.com",
+    	"password": "test",
+    	"phone": "5575991978883"
+    }
+parameters: []
+headers:
+  - id: pair_9fc0b588d03a43b8bb08dad5d740ea71
+    name: x-access-token
+    value: "{{ _.token }}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1666134636523
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

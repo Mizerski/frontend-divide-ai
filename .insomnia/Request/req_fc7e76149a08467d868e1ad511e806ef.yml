@@ -1,0 +1,38 @@
+_id: req_fc7e76149a08467d868e1ad511e806ef
+type: Request
+parentId: fld_bc84e18d69924c729c1decc40b823f5e
+modified: 1666135033473
+created: 1666134897858
+url: "{{ _.host }}/group"
+name: store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Netflix",
+    	"description": "Acesso Premium à netflix",
+    	"rules": "Não pode acessar às quintas-feiras",
+    	"price": 30,
+    	"credentials": "Usuário: teste\nSenha: teste",
+    	"group_category_id": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f3e55872aa0b4c7ebd6a6aeab65ef4cc
+  - id: pair_05aa850356694379a4484861955d7a35
+    name: x-access-token
+    value: "{{ _.token }}"
+    description: ""
+authentication: {}
+metaSortKey: -1666134897858
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

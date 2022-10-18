@@ -1,0 +1,16 @@
+_id: env_aca927425ef14c18accf7baa88e79bfb
+type: Environment
+parentId: env_ddf535920b324c4c8206c75eecccafd8ad7f2dfe
+modified: 1666135878032
+created: 1666134322437
+name: Development
+data:
+  host: https://backend-divide-ai.herokuapp.com
+  token: ""
+dataPropertyOrder:
+  "&":
+    - host
+    - token
+color: "#04ff00"
+isPrivate: false
+metaSortKey: 1666134322437

@@ -1,0 +1,31 @@
+_id: req_0fef332737464ab6a9529e03f2de6458
+type: Request
+parentId: fld_e36a89a7e77f4f0a8b1ca08d030e095e
+modified: 1666134650706
+created: 1666134183846
+url: "{{ _.host }}/user/signup"
+name: signup
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Felipe Passos",
+    	"email": "test@test.com",
+    	"password": "test",
+    	"phone": "5575991978883"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1666134183846
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

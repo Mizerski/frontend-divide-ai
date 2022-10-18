@@ -1,0 +1,21 @@
+_id: req_c1c17b9e9b2a44a7861add8d2d26e47f
+type: Request
+parentId: fld_5dd839f3648e42799099cf4a7d633927
+modified: 1666135971156
+created: 1666135162921
+url: "{{ _.host }}/group/category"
+name: search
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1666135162921
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
