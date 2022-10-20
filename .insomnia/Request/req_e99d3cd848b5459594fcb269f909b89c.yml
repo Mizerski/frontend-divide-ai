@@ -1,0 +1,25 @@
+_id: req_e99d3cd848b5459594fcb269f909b89c
+type: Request
+parentId: fld_bc84e18d69924c729c1decc40b823f5e
+modified: 1666135109638
+created: 1666135102121
+url: "{{ _.host }}/group/1"
+name: delete
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_05aa850356694379a4484861955d7a35
+    name: x-access-token
+    value: "{{ _.token }}"
+    description: ""
+authentication: {}
+metaSortKey: -1666134883692
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

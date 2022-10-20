@@ -1,0 +1,38 @@
+_id: req_e2f6251a60514486b7550106a9a30982
+type: Request
+parentId: fld_bc84e18d69924c729c1decc40b823f5e
+modified: 1666135065942
+created: 1666135057523
+url: "{{ _.host }}/group/1"
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Netflix",
+    	"description": "Acesso Premium a netflix",
+    	"rules": "Não pode acessar às quintas-feiras",
+    	"price": 30,
+    	"credentials": "Usuário: teste\nSenha: teste",
+    	"group_category_id": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f3e55872aa0b4c7ebd6a6aeab65ef4cc
+  - id: pair_05aa850356694379a4484861955d7a35
+    name: x-access-token
+    value: "{{ _.token }}"
+    description: ""
+authentication: {}
+metaSortKey: -1666134888414
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

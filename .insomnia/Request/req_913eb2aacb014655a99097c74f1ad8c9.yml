@@ -1,0 +1,29 @@
+_id: req_913eb2aacb014655a99097c74f1ad8c9
+type: Request
+parentId: fld_e36a89a7e77f4f0a8b1ca08d030e095e
+modified: 1666134588298
+created: 1666134518854
+url: "{{ _.host }}/user/signin"
+name: signin
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "test@test.com",
+    	"password": "test"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1666134183796
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

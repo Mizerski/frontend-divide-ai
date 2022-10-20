@@ -1,0 +1,25 @@
+_id: req_85f8ef533eec4b728ad824576debcb73
+type: Request
+parentId: fld_e36a89a7e77f4f0a8b1ca08d030e095e
+modified: 1666134749231
+created: 1666134685385
+url: "{{ _.host }}/user"
+name: get user by token
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_c3a0420d3bb842cb84793fadb8c34796
+    name: x-access-token
+    value: "{{ _.token }}"
+    description: ""
+authentication: {}
+metaSortKey: -1666134685385
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

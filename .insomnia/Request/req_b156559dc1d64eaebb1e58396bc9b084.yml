@@ -1,0 +1,21 @@
+_id: req_b156559dc1d64eaebb1e58396bc9b084
+type: Request
+parentId: fld_bc84e18d69924c729c1decc40b823f5e
+modified: 1666134886745
+created: 1666134878970
+url: "{{ _.host }}/group/1"
+name: find
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1666134878970
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

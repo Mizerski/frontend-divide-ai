@@ -1,0 +1,16 @@
+_id: env_8fcbe7cf96e64468a21c3e8c28b090e1
+type: Environment
+parentId: env_ddf535920b324c4c8206c75eecccafd8ad7f2dfe
+modified: 1666134564860
+created: 1666134338398
+name: Localhost
+data:
+  host: localhost:8090
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxfSwiaWF0IjoxNjY2MTM0NTQzfQ._dtkKKCKSiwYPXkzsfApUSKNuZCIhmm0lbkJ9nbMpo4
+dataPropertyOrder:
+  "&":
+    - host
+    - token
+color: "#0affef"
+isPrivate: false
+metaSortKey: 1666134338398
